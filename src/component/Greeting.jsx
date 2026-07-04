@@ -1,6 +1,6 @@
-const Greeting = () => { 
+const Greeting = ({name = "Invitado", lastname }) => { 
     return ( 
-        <h1>Buenas noches... estamos en reactjs</h1>
+        <h1>Buenas noches {name} {lastname}</h1>
     )
 }
 
