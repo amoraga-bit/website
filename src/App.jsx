@@ -1,4 +1,5 @@
 import Greeting from './component/Greeting.jsx';
+import Counter from './component/Counter.jsx';
 
 const App = () => {
 return (
@@ -10,6 +11,9 @@ return (
     <Greeting name="Carlos" lastname="Rodríguez" />
     <Greeting name="Fernando" lastname="López" />
     <Greeting />
+    <Counter counter />
+    <Counter initCounter={10} />
+    <Counter initCounter={15} />
 
   </>
 )
