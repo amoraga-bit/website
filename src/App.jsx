@@ -3,7 +3,7 @@ const App = () => {
 return (
   <>  
     <h1>Mi primer componente de react</h1>
-    <h2>Mi sitio web con react</h2>
+    <h2>Mi sitio web con reactjs</h2>
   </>
 )
 
